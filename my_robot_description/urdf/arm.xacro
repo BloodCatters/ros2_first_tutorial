@@ -62,11 +62,11 @@
     </link>
 
 
-    <!--joint name="arm_base_joint" type="fixed">
+    <joint name="arm_base_joint" type="fixed">
         <parent link="base_link" />
         <child link="arm_base_link" />
         <origin xyz="${base_length/4} 0 ${base_height}" rpy="0 0 0"/>
-    </joint> -->
+    </joint>
 
     <joint name="forearm_arm_base_joint" type="revolute">
         <parent link="arm_base_link" />
